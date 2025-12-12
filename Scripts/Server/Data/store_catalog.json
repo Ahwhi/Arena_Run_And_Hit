@@ -1,0 +1,938 @@
+{
+    "version": 10,
+    "updatedAt": "2025-12-01T18:00:00Z",
+
+    "items": [
+        {
+            "sku": "CHAR_BASIC_01",
+            "name": "기본 캐릭터",
+            "type": "cosmetic",
+            "stackable": false,
+            "equipSlot": "character",
+            "category": "character",
+            "imageKey": "CHAR_BASIC_01",
+            "defaultOwned": true
+        },
+        {
+            "sku": "CHAR_CASUAL_01",
+            "name": "캐주얼맨",
+            "type": "cosmetic",
+            "stackable": false,
+            "equipSlot": "character",
+            "category": "character",
+            "imageKey": "CHAR_CASUAL_01",
+            "defaultOwned": false
+        },
+        {
+            "sku": "CHAR_PENGUIN_01",
+            "name": "펭귄",
+            "type": "cosmetic",
+            "stackable": false,
+            "equipSlot": "character",
+            "category": "character",
+            "imageKey": "CHAR_PENGUIN_01",
+            "defaultOwned": false
+        },
+        {
+            "sku": "CHAR_RABBIT_01",
+            "name": "토끼",
+            "type": "cosmetic",
+            "stackable": false,
+            "equipSlot": "character",
+            "category": "character",
+            "imageKey": "CHAR_RABBIT_01",
+            "defaultOwned": false
+        },
+        {
+            "sku": "CHAR_BEAR_01",
+            "name": "곰",
+            "type": "cosmetic",
+            "stackable": false,
+            "equipSlot": "character",
+            "category": "character",
+            "imageKey": "CHAR_BEAR_01",
+            "defaultOwned": false
+        },
+        {
+            "sku": "CHAR_BOXMAN_01",
+            "name": "박스맨",
+            "type": "cosmetic",
+            "stackable": false,
+            "equipSlot": "character",
+            "category": "character",
+            "imageKey": "CHAR_BOXMAN_01",
+            "defaultOwned": false
+        },
+        {
+            "sku": "CHAR_ROBOT_01",
+            "name": "팔 고장 로봇",
+            "type": "cosmetic",
+            "stackable": false,
+            "equipSlot": "character",
+            "category": "character",
+            "imageKey": "CHAR_ROBOT_01",
+            "defaultOwned": false
+        },
+        {
+            "sku": "CHAR_MARIE_01",
+            "name": "마리",
+            "type": "cosmetic",
+            "stackable": false,
+            "equipSlot": "character",
+            "category": "character",
+            "imageKey": "CHAR_MARIE_01",
+            "defaultOwned": false
+        },
+        {
+            "sku": "CHAR_HUE_01",
+            "name": "휴",
+            "type": "cosmetic",
+            "stackable": false,
+            "equipSlot": "character",
+            "category": "character",
+            "imageKey": "CHAR_HUE_01",
+            "defaultOwned": false
+        },
+        {
+            "sku": "CHAR_ALEX_01",
+            "name": "알렉스",
+            "type": "cosmetic",
+            "stackable": false,
+            "equipSlot": "character",
+            "category": "character",
+            "imageKey": "CHAR_ALEX_01",
+            "defaultOwned": false
+        },
+        {
+            "sku": "CHAR_JACKIE_01",
+            "name": "재키",
+            "type": "cosmetic",
+            "stackable": false,
+            "equipSlot": "character",
+            "category": "character",
+            "imageKey": "CHAR_JACKIE_01",
+            "defaultOwned": false
+        },
+        {
+            "sku": "CHAR_KIMI_01",
+            "name": "키미",
+            "type": "cosmetic",
+            "stackable": false,
+            "equipSlot": "character",
+            "category": "character",
+            "imageKey": "CHAR_KIMI_01",
+            "defaultOwned": false
+        },
+        {
+            "sku": "CHAR_MONROE_01",
+            "name": "먼로",
+            "type": "cosmetic",
+            "stackable": false,
+            "equipSlot": "character",
+            "category": "character",
+            "imageKey": "CHAR_MONROE_01",
+            "defaultOwned": false
+        },
+        {
+            "sku": "CHAR_JUDE_01",
+            "name": "쥬드",
+            "type": "cosmetic",
+            "stackable": false,
+            "equipSlot": "character",
+            "category": "character",
+            "imageKey": "CHAR_JUDE_01",
+            "defaultOwned": false
+        },
+        {
+            "sku": "CHAR_SORA_01",
+            "name": "소라",
+            "type": "cosmetic",
+            "stackable": false,
+            "equipSlot": "character",
+            "category": "character",
+            "imageKey": "CHAR_SORA_01",
+            "defaultOwned": false
+        },
+        {
+            "sku": "CHAR_VOVOVO_01",
+            "name": "보보보",
+            "type": "cosmetic",
+            "stackable": false,
+            "equipSlot": "character",
+            "category": "character",
+            "imageKey": "CHAR_VOVOVO_01",
+            "defaultOwned": false
+        },
+        {
+            "sku": "TRAIL_BASIC_01",
+            "name": "기본 트레일",
+            "type": "cosmetic",
+            "stackable": false,
+            "equipSlot": "trail",
+            "category": "trail",
+            "imageKey": "TRAIL_BASIC_01",
+            "defaultOwned": true
+        },
+        {
+            "sku": "TRAIL_RED_01",
+            "name": "레드 트레일",
+            "type": "cosmetic",
+            "stackable": false,
+            "equipSlot": "trail",
+            "category": "trail",
+            "imageKey": "TRAIL_RED_01",
+            "defaultOwned": false
+        },
+        {
+            "sku": "TRAIL_GREEN_01",
+            "name": "그린 트레일",
+            "type": "cosmetic",
+            "stackable": false,
+            "equipSlot": "trail",
+            "category": "trail",
+            "imageKey": "TRAIL_GREEN_01",
+            "defaultOwned": false
+        },
+        {
+            "sku": "TRAIL_BLUE_01",
+            "name": "블루 트레일",
+            "type": "cosmetic",
+            "stackable": false,
+            "equipSlot": "trail",
+            "category": "trail",
+            "imageKey": "TRAIL_BLUE_01",
+            "defaultOwned": false
+        },
+        {
+            "sku": "TRAIL_YELLOW_01",
+            "name": "옐로우 트레일",
+            "type": "cosmetic",
+            "stackable": false,
+            "equipSlot": "trail",
+            "category": "trail",
+            "imageKey": "TRAIL_YELLOW_01",
+            "defaultOwned": false
+        },
+        {
+            "sku": "TRAIL_CYAN_01",
+            "name": "사이언 트레일",
+            "type": "cosmetic",
+            "stackable": false,
+            "equipSlot": "trail",
+            "category": "trail",
+            "imageKey": "TRAIL_CYAN_01",
+            "defaultOwned": false
+        },
+        {
+            "sku": "TRAIL_PURPLE_01",
+            "name": "퍼플 트레일",
+            "type": "cosmetic",
+            "stackable": false,
+            "equipSlot": "trail",
+            "category": "trail",
+            "imageKey": "TRAIL_PURPLE_01",
+            "defaultOwned": false
+        },
+        {
+            "sku": "TRAIL_GRAY_01",
+            "name": "그레이 트레일",
+            "type": "cosmetic",
+            "stackable": false,
+            "equipSlot": "trail",
+            "category": "trail",
+            "imageKey": "TRAIL_GRAY_01",
+            "defaultOwned": false
+        },
+        {
+            "sku": "TRAIL_BLACK_01",
+            "name": "블랙 트레일",
+            "type": "cosmetic",
+            "stackable": false,
+            "equipSlot": "trail",
+            "category": "trail",
+            "imageKey": "TRAIL_BLACK_01",
+            "defaultOwned": false
+        },
+        {
+            "sku": "EMOTE_BASIC_01",
+            "name": "기본 댄스",
+            "type": "emote",
+            "stackable": false,
+            "equipSlot": "dance",
+            "category": "dance",
+            "imageKey": "EMOTE_BASIC_01",
+            "defaultOwned": true
+        },
+        {
+            "sku": "EMOTE_HIPHOP_01",
+            "name": "힙합 댄스",
+            "type": "emote",
+            "stackable": false,
+            "equipSlot": "dance",
+            "category": "dance",
+            "imageKey": "EMOTE_HIPHOP_01",
+            "defaultOwned": false
+        },
+        {
+            "sku": "ETC_CHANGE_NAME",
+            "name": "닉네임 변경권",
+            "type": "etc",
+            "stackable": false,
+            "equipSlot": "etc",
+            "category": "etc",
+            "imageKey": "ETC_CHANGE_NAME",
+            "defaultOwned": false
+        },
+        {
+            "sku": "ETC_BATTLEPASS_S1",
+            "name": "배틀패스 S1 프리미엄",
+            "type": "etc",
+            "stackable": false,
+            "equipSlot": "etc",
+            "category": "etc",
+            "imageKey": "ETC_BATTLEPASS_S1",
+            "defaultOwned": false
+        }
+    ],
+
+    "offers": [
+        {
+            "offerId": "SHOP_CHAR_CASUAL",
+            "displayName": "캐주얼맨",
+            "imageKey": "CHAR_CASUAL_01",
+            "category": "character",
+            "items": [
+                {
+                    "sku": "CHAR_CASUAL_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "GOLD",
+                    "amount": 1000
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": false
+        },
+        {
+            "offerId": "SHOP_CHAR_PENGUIN",
+            "displayName": "펭귄",
+            "imageKey": "CHAR_PENGUIN_01",
+            "category": "character",
+            "items": [
+                {
+                    "sku": "CHAR_PENGUIN_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "GOLD",
+                    "amount": 1000
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": false
+        },
+        {
+            "offerId": "SHOP_CHAR_RABBIT",
+            "displayName": "토끼",
+            "imageKey": "CHAR_RABBIT_01",
+            "category": "character",
+            "items": [
+                {
+                    "sku": "CHAR_RABBIT_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "GOLD",
+                    "amount": 1000
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": true
+        },
+        {
+            "offerId": "SHOP_CHAR_BEAR",
+            "displayName": "곰",
+            "imageKey": "CHAR_BEAR_01",
+            "category": "character",
+            "items": [
+                {
+                    "sku": "CHAR_BEAR_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "GOLD",
+                    "amount": 1000
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": true
+        },
+        {
+            "offerId": "SHOP_CHAR_BOXMAN",
+            "displayName": "박스맨",
+            "imageKey": "CHAR_BOXMAN_01",
+            "category": "character",
+            "items": [
+                {
+                    "sku": "CHAR_BOXMAN_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "GOLD",
+                    "amount": 1000
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": true
+        },
+        {
+            "offerId": "SHOP_CHAR_ROBOT",
+            "displayName": "팔 고장 로봇",
+            "imageKey": "CHAR_ROBOT_01",
+            "category": "character",
+            "items": [
+                {
+                    "sku": "CHAR_ROBOT_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "GOLD",
+                    "amount": 1000
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": true
+        },
+        {
+            "offerId": "SHOP_CHAR_MARIE",
+            "displayName": "마리",
+            "imageKey": "CHAR_MARIE_01",
+            "category": "character",
+            "items": [
+                {
+                    "sku": "CHAR_MARIE_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "GOLD",
+                    "amount": 1000
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": false
+        },
+        {
+            "offerId": "SHOP_CHAR_HUE",
+            "displayName": "휴",
+            "imageKey": "CHAR_HUE_01",
+            "category": "character",
+            "items": [
+                {
+                    "sku": "CHAR_HUE_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "GOLD",
+                    "amount": 1000
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": true
+        },
+        {
+            "offerId": "SHOP_CHAR_ALEX",
+            "displayName": "알렉스",
+            "imageKey": "CHAR_ALEX_01",
+            "category": "character",
+            "items": [
+                {
+                    "sku": "CHAR_ALEX_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "STAR",
+                    "amount": 500
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": true
+        },
+        {
+            "offerId": "SHOP_CHAR_JACKIE",
+            "displayName": "재키",
+            "imageKey": "CHAR_JACKIE_01",
+            "category": "character",
+            "items": [
+                {
+                    "sku": "CHAR_JACKIE_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "STAR",
+                    "amount": 500
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": true
+        },
+        {
+            "offerId": "SHOP_CHAR_KIMI",
+            "displayName": "키미",
+            "imageKey": "CHAR_KIMI_01",
+            "category": "character",
+            "items": [
+                {
+                    "sku": "CHAR_KIMI_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "STAR",
+                    "amount": 1000
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": true
+        },
+        {
+            "offerId": "SHOP_CHAR_MONROE",
+            "displayName": "먼로",
+            "imageKey": "CHAR_MONROE_01",
+            "category": "character",
+            "items": [
+                {
+                    "sku": "CHAR_MONROE_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "STAR",
+                    "amount": 1000
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": true
+        },
+        {
+            "offerId": "SHOP_CHAR_JUDE",
+            "displayName": "쥬드",
+            "imageKey": "CHAR_JUDE_01",
+            "category": "character",
+            "items": [
+                {
+                    "sku": "CHAR_JUDE_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "STAR",
+                    "amount": 1000
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": false
+        },
+        {
+            "offerId": "SHOP_CHAR_SORA",
+            "displayName": "소라",
+            "imageKey": "CHAR_SORA_01",
+            "category": "character",
+            "items": [
+                {
+                    "sku": "CHAR_SORA_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "STAR",
+                    "amount": 2000
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": true
+        },
+        {
+            "offerId": "SHOP_CHAR_VOVOVO",
+            "displayName": "보보보",
+            "imageKey": "CHAR_VOVOVO_01",
+            "category": "character",
+            "items": [
+                {
+                    "sku": "CHAR_VOVOVO_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "STAR",
+                    "amount": 2000
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": false
+        },
+        {
+            "offerId": "SHOP_TRAIL_RED",
+            "displayName": "레드 트레일",
+            "imageKey": "TRAIL_RED_01",
+            "category": "trail",
+            "items": [
+                {
+                    "sku": "TRAIL_RED_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "GOLD",
+                    "amount": 500
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": true
+        },
+        {
+            "offerId": "SHOP_TRAIL_GREEN",
+            "displayName": "그린 트레일",
+            "imageKey": "TRAIL_GREEN_01",
+            "category": "trail",
+            "items": [
+                {
+                    "sku": "TRAIL_GREEN_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "GOLD",
+                    "amount": 500
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": true
+        },
+        {
+            "offerId": "SHOP_TRAIL_BLUE",
+            "displayName": "블루 트레일",
+            "imageKey": "TRAIL_BLUE_01",
+            "category": "trail",
+            "items": [
+                {
+                    "sku": "TRAIL_BLUE_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "GOLD",
+                    "amount": 500
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": true
+        },
+        {
+            "offerId": "SHOP_TRAIL_YELLOW",
+            "displayName": "옐로우 트레일",
+            "imageKey": "TRAIL_YELLOW_01",
+            "category": "trail",
+            "items": [
+                {
+                    "sku": "TRAIL_YELLOW_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "STAR",
+                    "amount": 300
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": true
+        },
+        {
+            "offerId": "SHOP_TRAIL_CYAN",
+            "displayName": "사이언 트레일",
+            "imageKey": "TRAIL_CYAN_01",
+            "category": "trail",
+            "items": [
+                {
+                    "sku": "TRAIL_CYAN_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "STAR",
+                    "amount": 300
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": true
+        },
+        {
+            "offerId": "SHOP_TRAIL_PURPLE",
+            "displayName": "퍼플 트레일",
+            "imageKey": "TRAIL_PURPLE_01",
+            "category": "trail",
+            "items": [
+                {
+                    "sku": "TRAIL_PURPLE_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "STAR",
+                    "amount": 300
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": true
+        },
+        {
+            "offerId": "SHOP_TRAIL_GRAY",
+            "displayName": "그레이 트레일",
+            "imageKey": "TRAIL_GRAY_01",
+            "category": "trail",
+            "items": [
+                {
+                    "sku": "TRAIL_GRAY_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "STAR",
+                    "amount": 300
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": true
+        },
+        {
+            "offerId": "SHOP_TRAIL_BLACK",
+            "displayName": "블랙 트레일",
+            "imageKey": "TRAIL_BLACK_01",
+            "category": "trail",
+            "items": [
+                {
+                    "sku": "TRAIL_BLACK_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "STAR",
+                    "amount": 300
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": true
+        },
+        {
+            "offerId": "SHOP_DANCE_HIPHOP",
+            "displayName": "힙합 댄스",
+            "imageKey": "EMOTE_HIPHOP_01",
+            "category": "dance",
+            "items": [
+                {
+                    "sku": "EMOTE_HIPHOP_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "STAR",
+                    "amount": 200
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": true
+        },
+        {
+            "offerId": "ETC_CHANGE_NAME",
+            "displayName": "닉네임 변경권",
+            "imageKey": "ETC_CHANGE_NAME",
+            "category": "etc",
+            "items": [
+                {
+                    "sku": "ETC_CHANGE_NAME",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "STAR",
+                    "amount": 100
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 100,
+            "visible": true
+        },
+        {
+            "offerId": "ETC_BATTLEPASS_S1",
+            "displayName": "배틀패스 S1 프리미엄",
+            "imageKey": "ETC_BATTLEPASS_S1",
+            "category": "etc",
+            "items": [
+                {
+                    "sku": "ETC_BATTLEPASS_S1",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "STAR",
+                    "amount": 1000
+                }
+            ],
+            "startUtc": "2025-12-04T00:00:00Z",
+            "endUtc": "2026-01-31T00:00:00Z",
+            "limitPerAccount": 1,
+            "visible": true
+        },
+        {
+            "offerId": "SHOP_CHAR_BASIC",
+            "displayName": "기본 캐릭터",
+            "imageKey": "CHAR_BASIC_01",
+            "category": "character",
+            "items": [
+                {
+                    "sku": "CHAR_BASIC_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "GOLD",
+                    "amount": 0
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": false
+        },
+        {
+            "offerId": "SHOP_TRAIL_BASIC",
+            "displayName": "기본 트레일",
+            "imageKey": "TRAIL_BASIC_01",
+            "category": "trail",
+            "items": [
+                {
+                    "sku": "TRAIL_BASIC_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "GOLD",
+                    "amount": 0
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": false
+        },
+        {
+            "offerId": "SHOP_DANCE_BASIC",
+            "displayName": "기본 댄스",
+            "imageKey": "EMOTE_BASIC_01",
+            "category": "dance",
+            "items": [
+                {
+                    "sku": "EMOTE_BASIC_01",
+                    "qty": 1
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "STAR",
+                    "amount": 0
+                }
+            ],
+            "startUtc": "2025-10-01T00:00:00Z",
+            "endUtc": null,
+            "limitPerAccount": 1,
+            "visible": false
+        }
+    ]
+}

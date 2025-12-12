@@ -1,0 +1,668 @@
+{
+    "Version": 1,
+    "MaxLevel": 50,
+    "PriceCurrency": "STAR",
+    "PriceAmount": 1000,
+    "Levels": [
+        {
+            "Level": 1,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 0,
+                "Star": 0,
+                "ItemSkus": [
+                    "CHAR_CASUAL_01"
+                ]
+            }
+        },
+        {
+            "Level": 2,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 0,
+                "Star": 100,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 3,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 4,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 5,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 6,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 7,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 8,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 9,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 10,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 0,
+                "Star": 100,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 11,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 0,
+                "Star": 0,
+                "ItemSkus": [
+                    "CHAR_VOVOVO_01"
+                ]
+            }
+        },
+        {
+            "Level": 12,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 0,
+                "Star": 100,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 13,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 14,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 15,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 16,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 17,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 18,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 19,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 20,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 0,
+                "Star": 100,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 21,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 0,
+                "Star": 0,
+                "ItemSkus": [
+                    "CHAR_MARIE_01"
+                ]
+            }
+        },
+        {
+            "Level": 22,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 0,
+                "Star": 100,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 23,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 24,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 25,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 26,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 27,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 28,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 29,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 30,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 0,
+                "Star": 100,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 31,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 0,
+                "Star": 0,
+                "ItemSkus": [
+                    "CHAR_PENGUIN_01"
+                ]
+            }
+        },
+        {
+            "Level": 32,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 0,
+                "Star": 100,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 33,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 34,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 35,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 36,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 37,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 38,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 39,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 40,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 0,
+                "Star": 100,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 41,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 0,
+                "Star": 0,
+                "ItemSkus": [
+                    "CHAR_JUDE_01"
+                ]
+            }
+        },
+        {
+            "Level": 42,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 0,
+                "Star": 100,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 43,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 44,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 45,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 46,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 47,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 48,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 49,
+            "Free": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 100,
+                "Star": 0,
+                "ItemSkus": []
+            }
+        },
+        {
+            "Level": 50,
+            "Free": {
+                "Gold": 0,
+                "Star": 100,
+                "ItemSkus": []
+            },
+            "Premium": {
+                "Gold": 0,
+                "Star": 300,
+                "ItemSkus": []
+            }
+        }
+    ]
+}

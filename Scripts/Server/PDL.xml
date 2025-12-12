@@ -1,0 +1,512 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PDL>
+	<packet name="C_Ping">
+		<int name="seq"/>
+		<int name="clientSentTick"/>
+	</packet>
+	<packet name="S_Pong">
+		<int name="seq"/>
+		<int name="serverTick"/>
+	</packet>
+	<packet name="S_Population">
+		<int name="total"/>
+	</packet>
+	<packet name="C_SteamLogin">
+		<string name="ticketHex"/>
+		<string name="personaName"/>
+	</packet>
+	<packet name="S_SteamLoginResult">
+		<bool name="isSuccess"/>
+		<string name="accountId"/>
+		<string name="nickName"/>
+		<int name="failReason"/>
+		<bool name="needNickSetup"/>
+		<bool name="needPolicyAgreement"/>
+	</packet>
+	<packet name="C_CheckSteamNickName">
+		<string name="nickName"/>
+	</packet>
+	<packet name="C_SetSteamNickName">
+		<string name="nickName"/>
+	</packet>
+	<packet name="S_CheckSteamNameResult">
+		<bool name="isSuccess"/>
+	</packet>
+	<packet name="S_SetSteamNameResult">
+		<bool name="isSuccess"/>
+		<string name="nickName"/>
+	</packet>
+	<packet name="C_AgreePolicy">
+		<int name="policyVersion"/>
+	</packet>
+	<packet name="S_AgreePolicyResult">
+		<bool name="isSuccess"/>
+		<int name="policyVersion"/>
+	</packet>
+	<packet name="C_Register">
+		<string name="accountId"/>
+		<string name="accountPw"/>
+		<string name="nickName"/>
+	</packet>
+	<packet name="S_RegisterResult">
+		<bool name="isSuccess"/>
+		<int name="failReason"/>
+	</packet>
+	<packet name="C_Login">
+		<string name="accountId"/>
+		<string name="accountPw"/>
+		<bool name="isAutoLogin"/>
+	</packet>
+	<packet name="S_LoginResult">
+		<bool name="isSuccess"/>
+		<string name="accountId"/>
+		<string name="nickName"/>
+		<int name="failReason"/>
+		<string name="accessToken"/>
+	</packet>
+	<packet name="C_AutoLogin">
+		<string name="accessToken"/>
+	</packet>
+	<packet name="S_AutoLoginResult">
+		<bool name="isSuccess"/>
+		<string name="accountId"/>
+		<string name="nickName"/>
+		<int name="failReason"/>
+	</packet>
+	<packet name="C_Logout">
+	</packet>
+	<packet name="S_LogoutResult">
+		<bool name="isSuccess"/>
+	</packet>
+	<packet name="C_TryFindMatch">
+		<int name="gameMode"/>
+	</packet>
+	<packet name="C_CancelFindMatch">
+	</packet>
+	<packet name="S_GroupLeaderFindMatch">
+	</packet>
+	<packet name="S_GroupLeaderCancelMatch">
+	</packet>
+	<packet name="C_EnterLobby">
+	</packet>
+	<packet name="S_MatchFound">
+		<int name="gameMode"/>
+		<int name="playerCount"/>
+		<int name="botCount"/>
+		<int name="botOwnerId"/>
+		<list name="botIds">
+			<int name="botId"/>
+		</list>
+	</packet>
+	<packet name="S_GameSetting">
+		<int name="gameMode"/>
+	</packet>
+	<packet name="C_EnterGame">
+	</packet>
+	<packet name="S_GameReady">
+		<int name="startServerTick"/>
+		<int name="countdownSec"/>
+	</packet>
+	<packet name="C_LeaveGame">
+	</packet>
+	<packet name="S_BroadcastLeaveGame">
+		<int name="playerId"/>
+	</packet>
+	<packet name="S_PlayerList">
+		<list name="player">
+			<bool name="isSelf"/>
+			<int name="playerId"/>
+			<string name="nickName"/>
+			<int name="colorIndex"/>
+			<float name="posX"/>
+			<float name="posY"/>
+			<float name="posZ"/>
+			<string name="characterSku"/>
+			<string name="trailSku"/>
+		</list>
+	</packet>
+	<packet name="S_Respawn">
+		<int name="playerId"/>
+		<float name="posX"/>
+		<float name="posY"/>
+		<float name="posZ"/>
+		<float name="yaw"/>
+	</packet>
+	<packet name="S_BotInit">
+		<list name="Info">
+			<int name="botId"/>
+			<int name="colorIndex"/>
+			<float name="posX"/>
+			<float name="posY"/>
+			<float name="posZ"/>
+			<float name="yaw"/>
+		</list>
+	</packet>
+	<packet name="C_Chat">
+		<string name="message"/>
+	</packet>
+	<packet name="S_BroadcastChat">
+		<int name="playerId"/>
+		<string name="nickName"/>
+		<string name="message"/>
+	</packet>
+	<packet name="C_LobbyChat">
+		<int name="type"/>
+		<string name="message"/>
+	</packet>
+	<packet name="S_BroadcastLobbyChat">
+		<int name="type"/>
+		<int name="playerId"/>
+		<string name="nickName"/>
+		<string name="message"/>
+	</packet>
+	<packet name="C_Input">
+		<int name="seq"/>
+		<float name="moveX"/>
+		<float name="moveZ"/>
+		<float name="yaw"/>
+		<byte name="action"/>
+		<byte name="emoteSlot"/>
+	</packet>
+	<packet name="S_Snapshot">
+		<int name="serverTick"/>
+		<float name="posX"/>
+		<float name="posY"/>
+		<float name="posZ"/>
+		<float name="yaw"/>
+		<int name="lastProcessedInputSeq"/>
+	</packet>
+	<packet name="S_WorldSnapshot">
+		<int name="serverTick"/>
+		<list name="entities">
+			<int name="playerId"/>
+			<float name="posX"/>
+			<float name="posY"/>
+			<float name="posZ"/>
+			<float name="yaw"/>
+		</list>
+	</packet>
+	<packet name="S_BroadcastAttack">
+		<int name="serverTick"/>
+		<int name="playerId"/>
+	</packet>
+	<packet name="S_Hit">
+		<int name="serverTick"/>
+		<int name="attackerId"/>
+		<int name="targetId"/>
+		<int name="damage"/>
+		<int name="hpAfter"/>
+		<bool name="killed"/>
+	</packet>
+	<packet name="S_Health">
+		<int name="playerId"/>
+		<int name="hp"/>
+		<int name="maxHp"/>
+	</packet>
+	<packet name="S_BroadcastEmote">
+		<int name="serverTick"/>
+		<int name="playerId"/>
+		<int name="emoteId"/>
+		<string name="emoteSku"/>
+	</packet>
+	<packet name="C_BotSnapshot">
+		<list name="bots">
+			<int name="botId"/>
+			<float name="posX"/>
+			<float name="posY"/>
+			<float name="posZ"/>
+			<float name="yaw"/>
+		</list>
+	</packet>
+	<packet name="S_BotOwnerChanged">
+		<int name="ownerId"/>
+		<list name="botIds">
+			<int name="botId"/>
+		</list>
+	</packet>
+	<packet name="S_GameStatus">
+		<int name="aliveCount"/>
+		<list name="bots">
+			<int name="botId"/>
+			<int name="kills"/>
+			<int name="deaths"/>
+		</list>
+		<list name="player">
+			<int name="playerId"/>
+			<int name="kills"/>
+			<int name="deaths"/>
+		</list>
+	</packet>
+	<packet name="S_SupplySpawn">
+		<int name="dropId"/>
+		<int name="effect"/>
+		<float name="posX"/>
+		<float name="posY"/>
+		<float name="posZ"/>
+	</packet>
+	<packet name="S_SupplyGone">
+		<int name="dropId"/>
+		<int name="reason"/>
+	</packet>
+	<packet name="S_SupplyApplied">
+		<int name="serverTick"/>
+		<int name="playerId"/>
+		<int name="effect"/>
+		<int name="amount"/>
+		<int name="durationMs"/>
+	</packet>
+	<packet name="S_VomitExplode">
+		<int name="serverTick"/>
+		<int name="ownerId"/>
+		<float name="posX"/>
+		<float name="posY"/>
+		<float name="posZ"/>
+		<float name="radius"/>
+	</packet>
+	<packet name="S_MatchTimer">
+		<int name="remainingSec"/>
+	</packet>
+	<packet name="S_SetRank">
+		<int name="rank"/>
+	</packet>
+	<packet name="S_GameOver">
+		<int name="totalPlayers"/>
+		<list name="results">
+			<int name="playerId"/>
+			<string name="nickName"/>
+			<bool name="isBot"/>
+			<int name="rank"/>
+			<int name="kills"/>
+			<int name="deaths"/>
+		</list>
+	</packet>
+	<packet name="C_EquipItem">
+		<string name="slot"/>
+		<string name="sku"/>
+	</packet>
+	<packet name="S_EquipResult">
+		<bool name="isSuccess"/>
+		<int name="failReason"/>
+		<bool name="isDetach"/>
+	</packet>
+	<packet name="C_BuyOffer">
+		<string name="offerId"/>
+		<string name="idempotencyKey"/>
+	</packet>
+	<packet name="S_BuyResult">
+		<bool name="isSuccess"/>
+		<int name="failReason"/>
+	</packet>
+	<packet name="S_StoreCatalog">
+		<int name="version"/>
+		<int name="gold"/>
+		<int name="star"/>
+		<list name="items">
+			<string name="sku"/>
+			<string name="name"/>
+			<string name="category"/>
+			<string name="imageKey"/>
+		</list>
+		<list name="offers">
+			<string name="offerId"/>
+			<string name="displayName"/>
+			<string name="imageKey"/>
+			<string name="category"/>
+			<bool name="visible"/>
+			<list name="prices">
+				<string name="currency"/>
+				<int name="amount"/>
+			</list>
+		</list>
+		<list name="inventory">
+			<string name="sku"/>
+			<int name="qty"/>
+		</list>
+		<list name="equipped">
+			<string name="slot"/>
+			<string name="sku"/>
+		</list>
+	</packet>
+	<packet name="C_RequestStore">
+		<int name="knownVersion"/>
+	</packet>
+	<packet name="S_BuyChangeName">
+	</packet>
+	<packet name="C_InviteGroup">
+		<string name="LeaderNickName"/>
+		<string name="ServentNickName"/>
+	</packet>
+	<packet name="C_ReplyInviteGroup">
+		<bool name="isAccept"/>
+		<string name="InviterNickName"/>
+		<string name="replierNickName"/>
+	</packet>
+	<packet name="S_InviteGroupResult">
+		<bool name="isAvailable"/>
+		<int name="failReason"/>
+		<bool name="isAccepted"/>
+		<string name="InviterNickName"/>
+		<string name="replierNickName"/>
+	</packet>
+	<packet name="S_RequestInviteGroup">
+		<string name="InviterNickName"/>
+	</packet>
+	<packet name="C_LeaveGroup">
+	</packet>
+	<packet name="S_BroadcastJoinGroup">
+		<string name="joinnerNickName"/>
+	</packet>
+	<packet name="S_BroadcastLeaveGroup">
+		<string name="leaverNickName"/>
+		<bool name="isLeader"/>
+		<string name="newLeaderNickName"/>
+	</packet>
+	<packet name="S_GroupUpdate">
+		<bool name="isDestroy"/>
+		<list name="player">
+			<bool name="isLeader"/>
+			<bool name="isLobby"/>
+			<int name="playerId"/>
+			<string name="nickName"/>
+			<int name="rank"/>
+			<int name="level"/>
+		</list>
+	</packet>
+	<packet name="C_RequestUserInformation">
+		<string name="nickName"/>
+	</packet>
+	<packet name="S_UserInformation">
+		<bool name="isSuccess"/>
+		<int name="failReason"/>
+		<bool name="isOnline"/>
+		<list name="player">
+			<string name="nickName"/>
+			<int name="level"/>
+			<int name="totalGames"/>
+			<int name="totalWins"/>
+			<float name="WinPercentage"/>
+			<float name="avgRank"/>
+			<float name="avgKill"/>
+			<int name="tearRank"/>
+			<int name="tearRankScore"/>
+		</list>
+	</packet>
+	<packet name="S_RankScoreUpdate">
+		<int name="change"/>
+		<int name="beforeRank"/>
+		<int name="beforeRankScore"/>
+		<int name="afterRank"/>
+		<int name="afterRankScore"/>
+	</packet>
+	<packet name="C_RequestRecentGames">
+		<string name="nickName"/>
+	</packet>
+	<packet name="S_RecentGames">
+		<list name="games">
+			<int name="mode"/>
+			<int name="rank"/>
+			<int name="kills"/>
+			<int name="deaths"/>
+			<int name="startedAtMs"/>
+		</list>
+	</packet>
+	<packet name="C_RequestLeaderboard">
+		<int name="offset"/>
+		<int name="limit"/>
+	</packet>
+	<packet name="S_Leaderboard">
+		<int name="lastUpdatedSec"/>
+		<list name="rows">
+			<string name="nickName"/>
+			<int name="tier"/>
+			<int name="score"/>
+			<int name="globalRank"/>
+			<int name="totalGames"/>
+			<float name="winRate"/>
+			<float name="avgRank"/>
+			<float name="avgKill"/>
+		</list>
+	</packet>
+	<packet name="S_PlayerUpdate">
+		<string name="nickName"/>
+		<int name="level"/>
+		<int name="exp"/>
+		<int name="maxExp"/>
+		<int name="rank"/>
+		<int name="rankScore"/>
+	</packet>
+	<packet name="S_LevelUp">
+		<int name="fromLevel"/>
+		<int name="toLevel"/>
+		<int name="rewardGold"/>
+		<int name="rewardStar"/>
+	</packet>
+	<packet name="C_RequestAddStar">
+		<int name="packIndex"/>
+	</packet>
+	<packet name="S_BuyStarsResult">
+		<bool name="isSuccess"/>
+		<int name="packIndex"/>
+		<int name="orderId"/>
+		<long name="transId"/>
+	</packet>
+	<packet name="C_ConfirmAddStar">
+		<int name="packIndex"/>
+		<int name="orderId"/>
+		<long name="transId"/>
+	</packet>
+	<packet name="S_ConfirmAddStarResult">
+		<bool name="isSuccess"/>
+		<int name="packIndex"/>
+		<int name="addedStars"/>
+		<int name="newStarBalance"/>
+	</packet>
+	<packet name="C_RequestBattlePass">
+	</packet>
+	<packet name="S_BattlePassInfo">
+		<int name="version"/>
+		<int name="bpLevel"/>
+		<bool name="hasPremium"/>
+		<long name="freeClaimBits"/>
+		<long name="premiumClaimBits"/>
+		<list name="levels">
+			<int name="level"/>
+			<int name="freeGold"/>
+			<int name="freeStar"/>
+			<list name="freeItemSkus">
+				<string name="sku"/>
+			</list>
+			<int name="premiumGold"/>
+			<int name="premiumStar"/>
+			<list name="premiumItemSkus">
+				<string name="sku"/>
+			</list>
+		</list>
+	</packet>
+	<packet name="C_ClaimBattlePassReward">
+		<int name="level"/>
+		<bool name="isPremium"/>
+	</packet>
+	<packet name="S_ClaimBattlePassRewardResult">
+		<bool name="isSuccess"/>
+		<int name="failReason"/>
+		<int name="level"/>
+		<bool name="isPremium"/>
+	</packet>
+	<packet name="C_ClaimBattlePassAll">
+	</packet>
+	<packet name="S_ClaimBattlePassAllResult">
+		<bool name="isSuccess"/>
+		<int name="failReason"/>
+		<int name="claimedCount"/>
+		<int name="gainedGold"/>
+		<int name="gainedStar"/>
+	</packet>
+	<packet name="C_BuyBattlePass">
+	</packet>
+	<packet name="S_BuyBattlePassResult">
+		<bool name="isSuccess"/>
+		<int name="failReason"/>
+		<int name="version"/>
+	</packet>
+</PDL>
